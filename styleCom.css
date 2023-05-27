@@ -1,0 +1,47 @@
+.comparisonMain{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+.comparisonState{
+    display: flex;
+    justify-content: space-between;
+    gap: 12em;
+   align-items: center;
+}
+.comparisonOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+.comparisonTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+.comparisonMain img{
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+}
+.WinnersState{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comparisonMain button{
+    cursor: pointer;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    width: 150px;
+    padding: 15px 0;
+    border-radius:10px;
+
+}
